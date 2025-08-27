@@ -19,12 +19,12 @@ return ''.join(sorted(text.lower()))
   * sorted() will arrange them into a list in alphabetical order.
   * join() will merge that list into a single string.
 
-### Step 3: We now define a string and assign it to a variable named 'given_sentence".
+### Step 3: We will now ask for user input and assign it to a variable.
 ```py
-given_sentence=input("Enter a string: ")
+user_input=input("Enter a string: ")
 ```
 
-### Step 4: Finally, we print the sorted version of the string by calling the alphabet_soup() function with 'given_sentence'.
+### Step 4: Finally, we print the sorted version of the string by calling the alphabet_soup() function with 'user_input'.
 ```py
 print("Sorted string: ", alphabet_soup(user_input))
 ```
@@ -75,7 +75,15 @@ sentence=sentence.replace("mad", ">:(")
 ```
   If the word "mad" is found, then all occurrences of the word "mad" will be converted to ">:(".
 
-  
+### Step 6: We now define a string and assign it to a variable named 'given_sentence".
+```py
+given_sentence= "I smile when you grin but feel sad when you are mad"
+```
+
+### Step 7: Finally, we print by calling the emotify() function with the sentence stored in 'given_sentence'. This prints out the modified sentence.
+```py
+print("Converted: ", emotify(given_sentence))
+```  
 
 ## UNPACKING LIST PROBLEM: Unpack the list write your code here into three variables, being first, middle, and last, with middle being everything in between the first and last element. Then print all three variables.  
 
