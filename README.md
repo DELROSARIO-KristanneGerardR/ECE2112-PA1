@@ -109,7 +109,7 @@ first, *middle, last = lst
 ```
   * "first" takes the first element of the list.
   * "last" takes the last element of the list.
-  * "middle" collects all elements in between into a list.
+  * "*middle" collects all elements in between into a list.
 
 ### Step 6: We now print out the results.
 ```py
