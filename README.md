@@ -19,12 +19,12 @@ return ''.join(sorted(text.lower()))
   * sorted() will arrange them into a list in alphabetical order.
   * join() will merge that list into a single string.
 
-### Step 3: We now need to ask the user for a string by using the input() function and assign it to a variable.
+### Step 3: We now define a string and assign it to a variable named 'given_sentence".
 ```py
-user_input=input("Enter a string: ")
+given_sentence=input("Enter a string: ")
 ```
 
-### Step 4: Finally, we print the sorted version of the string by calling the alphabet_soup() function with 'user_input'.
+### Step 4: Finally, we print the sorted version of the string by calling the alphabet_soup() function with 'given_sentence'.
 ```py
 print("Sorted string: ", alphabet_soup(user_input))
 ```
