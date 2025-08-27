@@ -11,7 +11,7 @@ This repository contains the Jupyter Notebook and README file for Experiment 1 -
 def alphabet_soup(text):
 ```
 
-### Step 2: Inside the function, we need to sort the characters of the string. We will use the built-in function sorted() to arrange them into a list in alphabetical order. Then, using the join() function will merge that list into a single string.
+### Step 2: Inside the function, we need to sort the characters of the string. 
 ```py
 return ''.join(sorted(text.lower()))
 ```
