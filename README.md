@@ -13,8 +13,11 @@ def alphabet_soup(text):
 
 ### Step 2: Inside the function, we need to sort the characters of the string. We will use the built-in function sorted() to arrange them into a list in alphabetical order. Then, using the join() function will merge that list into a single string.
 ```py
-return ''.join(sorted(text))
+return ''.join(sorted(text.lower()))
 ```
+  * .lower() will ensure that all characters will be treated the same, regardless of whether they are in uppercase or lowercase.
+  * sorted() will arrange them into a list in alphabetical order.
+  * join() will merge that list into a single string
 
 ### Step 3: We now need to ask the user for a string by using the input() function and assign it to a variable.
 ```py
