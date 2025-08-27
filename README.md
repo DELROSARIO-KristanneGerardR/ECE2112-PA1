@@ -39,16 +39,34 @@ if "smile" in sentence.lower():
 ```py
 sentence=sentence.replace("smile", ":)")
 ```
-  If the word "smile" is found, then all occurrences of the word "smile" will be converted to :).
+  If the word "smile" is found, then all occurrences of the word "smile" will be converted to ":)".
 
-Step 3: Check if the word "grin" is contained in the sentene.
+Step 3: Check if the word "grin" is contained in the sentence.
 ```py
 if "grin" in sentence.lower():
 ```
 ```py
 sentence=sentence.replace("grin", ":D")
 ```
-  If the word "grin" is found, then all occurrences of the word "grin" will be converted to :D.
+  If the word "grin" is found, then all occurrences of the word "grin" will be converted to ":D".
+
+Step 4: Check if the word "sad" is contained in the sentence.
+```py
+if "sad" in sentence.lower():
+```
+```py
+sentence=sentence.replace("sad", ":(")
+```
+  If the word "sad" is found, then all occurrences of the word "sad" will be converted to ":(".
+
+Step 5: Check if the word "mad" is contained in the sentence.
+```py
+if "mad" in sentence.lower():
+```
+```py
+sentence=sentence.replace("mad", ">:(")
+```
+  If the word "mad" is found, then all occurrences of the word "mad" will be converted to ">:(".
 
 
 
