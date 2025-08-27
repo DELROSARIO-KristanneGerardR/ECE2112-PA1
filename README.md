@@ -115,7 +115,7 @@ first, *middle, last = lst
 ```py
 print("first: ", first)
 print("middle: ", middle)
-print("last", last)
+print("last: ", last)
 ```
 
 
