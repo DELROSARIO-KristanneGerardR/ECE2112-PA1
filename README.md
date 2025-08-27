@@ -66,6 +66,11 @@ if "mad" in sentence.lower():
 sentence=sentence.replace("mad", ">:(")
 ```
   If the word "mad" is found, then all occurrences of the word "mad" will be converted to ">:(".
+<br>
+
+UNPACKING LIST PROBLEM: Unpack the list write your code here into three variables, being first, middle, and last, with middle being everything in between the first and last element. Then print all three variables.  
+
+Step 1: We define a function named '
 
 
 
