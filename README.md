@@ -39,7 +39,17 @@ if "smile" in sentence.lower():
 ```py
 sentence=sentence.replace("smile", ":)")
 ```
-***If the word "smile" is found, then all occurrences of the word "smile" will be converted to :).
+  If the word "smile" is found, then all occurrences of the word "smile" will be converted to :).
+
+Step 3: Check if the word "grin" is contained in the sentene.
+```py
+if "grin" in sentence.lower():
+```
+```py
+sentence=sentence.replace("grin", ":D")
+```
+  If the word "grin" is found, then all occurrences of the word "grin" will be converted to :D.
+
 
 
 
