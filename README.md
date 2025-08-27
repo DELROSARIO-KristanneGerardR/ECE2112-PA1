@@ -95,9 +95,9 @@ Step 5: We now unpack the list into variables.
 ```py
 first, *middle, last = lst
 ```
-  *"first" takes the first element of the list.
-  *"last" takes the last element of the list.
-  *"middle" collects all elements in between into a list.
+  * "first" takes the first element of the list.
+  * "last" takes the last element of the list.
+  * "middle" collects all elements in between into a list.
 
 
 
