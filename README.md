@@ -77,7 +77,7 @@ sentence=sentence.replace("mad", ">:(")
 
 ### Step 6: We now define a string and assign it to a variable named 'given_sentence".
 ```py
-given_sentence= "I smile when you grin but feel sad when you are mad"
+given_sentence= "I am sad when you are mad but smile when you grin."
 ```
 
 ### Step 7: Finally, we print by calling the emotify() function with the sentence stored in 'given_sentence'. This prints out the modified sentence.
