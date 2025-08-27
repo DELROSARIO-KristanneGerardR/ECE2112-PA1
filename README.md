@@ -70,9 +70,34 @@ sentence=sentence.replace("mad", ">:(")
 
 UNPACKING LIST PROBLEM: Unpack the list write your code here into three variables, being first, middle, and last, with middle being everything in between the first and last element. Then print all three variables.  
 
-Step 1: We define a function named '
+Step 1: We need to take user input as a string and assign it to a variable.
+```py
+user_input = input("Enter numbers separated by spaces: ")
+```
 
+Step 2: We then split the input into several string elements that will be stored in a list using the string method .split().
+```py
+split_input = user_input.split()
+```
 
+Step 3: We initialize an empty list to store converted values.
+```py
+lst=[]
+```
+
+Step 4: We now use a for loop to go through each element of split_input wherein int(num) converts the string to an integer and list.append() adds the integer to the list.
+```py
+for num in split_input:
+    lst.append(int(num))
+```
+
+Step 5: We now unpack the list into variables.
+```py
+first, *middle, last = lst
+```
+  *"first" takes the first element of the list.
+  *"last" takes the last element of the list.
+  *"middle" collects all elements in between into a list.
 
 
 
