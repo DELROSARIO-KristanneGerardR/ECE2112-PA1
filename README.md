@@ -23,3 +23,27 @@ Step 4: Finally, we print the sorted version of the string by calling the alphab
 ```py
 print("Sorted string: ", alphabet_soup(user_input))
 ```
+
+
+EMOTICON PROBLEM: Create a function that changes specific words into emoticons. Given a sentence as a string, replace the words smile, grin, sad and mad with their corresponding emoticon:
+
+Step 1: We define a function named 'emotify' that takes one parameter 'sentence'. This function will search for certain keywords in the sentence and replace them with their corresponding emoticons.
+```py
+def emotify(sentence):
+```
+
+Step 2: We convert the sentence to lowercase when searching for keywords so that the function will work regardless of the text case (e.g., "smile" or "SmIlE")
+```py
+if "smile" in sentence.lower():
+```
+```py
+sentence=sentence.replace("smile", ":)")
+```
+***If the word "smile" is found, then all occurrences of the word "smile" will be converted to :).
+
+
+
+
+
+
+
