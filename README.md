@@ -18,3 +18,7 @@ Step 3: We now need to ask the user for a string by using the input() function a
 user_input=input("Enter a string: ")
 ```
 
+Step 4: Finally, we print the sorted version of the string by calling the alphabet_soup() function with 'user_input'.
+```py
+print("Sorted string: ", alphabet_soup(user_input))
+```
