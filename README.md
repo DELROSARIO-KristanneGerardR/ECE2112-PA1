@@ -85,11 +85,13 @@ Step 3: We initialize an empty list to store converted values.
 lst=[]
 ```
 
-Step 4: We now use a for loop to go through each element of split_input wherein int(num) converts the string to an integer and list.append() adds the integer to the list.
+Step 4: We now use a for loop to go through each element of split_input. 
 ```py
 for num in split_input:
     lst.append(int(num))
 ```
+  * int(num) converts the string to an integer.
+  * list.append() adds the integer to the list.
 
 Step 5: We now unpack the list into variables.
 ```py
@@ -98,6 +100,13 @@ first, *middle, last = lst
   * "first" takes the first element of the list.
   * "last" takes the last element of the list.
   * "middle" collects all elements in between into a list.
+
+Step 6: We now print out the results.
+```py
+print("first: ", first)
+print("middle: ", middle)
+print("last", last)
+```
 
 
 
