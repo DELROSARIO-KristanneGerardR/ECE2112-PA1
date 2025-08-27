@@ -1,8 +1,9 @@
 # PROGRAMMING-ASSIGNMENT-1
 This repository contains the Jupyter Notebook and README file for Experiment 1 - Introduction to Python Programming.  
 
-
+<br>
 ALPHABET SOUP PROBLEM: Create a function that takes a string and returns a string with its letters in alphabetical order.  
+
 
 Step 1: We need to define a function wherein we will process the string input.
 ```py
@@ -23,8 +24,10 @@ Step 4: Finally, we print the sorted version of the string by calling the alphab
 ```py
 print("Sorted string: ", alphabet_soup(user_input))
 ```
+
 <br>
 EMOTICON PROBLEM: Create a function that changes specific words into emoticons. Given a sentence as a string, replace the words smile, grin, sad and mad with their corresponding emoticon:  
+
 
 Step 1: We define a function named 'emotify' that takes one parameter 'sentence'. This function will search for certain keywords in the sentence and replace them with their corresponding emoticons.
 ```py
@@ -69,6 +72,7 @@ sentence=sentence.replace("mad", ">:(")
 <br>
 
 UNPACKING LIST PROBLEM: Unpack the list write your code here into three variables, being first, middle, and last, with middle being everything in between the first and last element. Then print all three variables.  
+
 
 Step 1: We need to take user input as a string and assign it to a variable.
 ```py
